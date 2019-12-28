@@ -52,6 +52,8 @@ class Decimal implements Comparable<Decimal> {
   @override
   String toString() => _rational.toDecimalString();
 
+  String toJson() => this.toString();
+  
   // implementation of Comparable
 
   @override
